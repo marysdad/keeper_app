@@ -9,25 +9,27 @@ import CreateArea from "./CreateArea";
 
 function App() {
 
-  const [notes, setNotes] = useState([]); // this state holds old and new notes for rendering.
+  const [notes, setNotes] = useState([]);
 
-  function addNote(inputNote){
+
+  function addNote(newNote){
     setNotes(prevNotes =>{
-      return[...prevNotes,inputNote];//this feeds the new note into the previous notes array
+      return[...prevNotes,newNote];//this feeds the new note into the previous notes array
     });
+
+    //console.log(note);
   }
+
+
 
   return (
     <div>
       <Header />
-      <CreateArea
-        onAdd={addNote}
-      />
-      <Note 
-        key={1}
-        title="kaki"
-        content="she is amazing"
-      />
+      <CreateArea onAdd={addNote}/>
+      
+      {notes.map((noteItem) =>{
+        return <Note title={noteItem.title} content={noteItem.content}/>
+      })}
       <Footer />
     </div>
   );
