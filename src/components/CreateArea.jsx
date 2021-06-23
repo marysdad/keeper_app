@@ -20,6 +20,10 @@ function CreateArea(props) {
 
   function submitNote(event){
     props.onAdd(note);
+    setNote({
+      title: "",
+      content:""
+    })
     event.preventDefault(); // this stops the page from flashing when updating and submitting
   }
 
