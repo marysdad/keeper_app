@@ -1,0 +1,23 @@
+[33mcommit 43f68e726f23b2b8f33984dae50e71506c1b22fb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Mary Kaki <justonly4testing@gmail.com>
+Date:   Wed Jun 23 19:14:15 2021 +0300
+
+    I just added the functionality to delete a note and clear the input box after submitting a new note
+
+[33mcommit f3f517336ec27faa5be69daf6c21d23b0f256edb[m
+Author: Mary Kaki <justonly4testing@gmail.com>
+Date:   Wed Jun 23 18:28:20 2021 +0300
+
+    I just added the functionality to create a new note, append it to the note arrays and render it
+
+[33mcommit 9d3fdd7f6860e5f87c3e094917e38a20bcae30aa[m
+Author: Mary Kaki <justonly4testing@gmail.com>
+Date:   Wed Jun 23 14:53:58 2021 +0300
+
+    just coded the ui and styled it without any functionality
+
+[33mcommit 1f95a21c07e67d6947c3c44ae7b660db45226f6c[m
+Author: Mary Kaki <justonly4testing@gmail.com>
+Date:   Tue Jun 15 22:19:44 2021 +0300
+
+    mapping through an array to spit out multiplce cards
